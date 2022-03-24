@@ -67,7 +67,6 @@ import Skeleton from "react-loading-skeleton"
        }
 
       const checkDis = com === "" ? true : false
-
     return (
       <>
         <div className="data">

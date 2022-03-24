@@ -54,10 +54,9 @@ scroll()
      function Eemoji() {
         setEmoji(pres => !pres)
       }
-
      React.useEffect(async() => {
           if(test) {
-            const result = await firebase.storage().ref().child(`${userData.username} Post`)
+            const result = await firebase.storage().ref().child(`${test.name} Post`)
             const storageRef = await result.put(test)
             setImgPost(await result.getDownloadURL())
           }
