@@ -434,6 +434,7 @@ a {
     z-index: 1000;
     background: white;
     width: 100%;
+    overflow: auto;
 }
 .heads {
     display: flex;

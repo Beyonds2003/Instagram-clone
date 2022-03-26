@@ -19,6 +19,7 @@ const SuggestionList = () => {
             setSugData(filterData)
        }, [userData])
        const mapData = sugData.slice(0, 5).map(data => <SuggestPeople key={data.docId} sugData={data} userData={userData}/>)
+       document.body.style.overflow = "scroll"
     return (
          <>
           {mapData}

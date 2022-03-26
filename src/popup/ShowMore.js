@@ -26,7 +26,12 @@ function ShowMore({show, setShow, sugData}) {
          <SuggestPeople key={sugDatas.userId} sugData={sugDatas}/>
         )
 
-        console.log(sugData)
+        function scroll() {
+          if(show) {
+              document.body.style.overflow = "hidden"
+          }
+      }
+  scroll()
 
     return (
         <div className=' yoyo ms'>
