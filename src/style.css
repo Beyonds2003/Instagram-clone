@@ -757,7 +757,6 @@ textarea:focus {
         box-shadow: 0px 0px 1px 1px rgb(0 0 0 / 50%);
         display: inline-block;
         border-radius: 6px;
-        height: 100px;
         margin-top: 5px;
     }
     .suggest {
@@ -774,7 +773,6 @@ textarea:focus {
         display: flex;
         width: 350px;
         overflow-x: auto;
-        height: 120px;
         padding: 10px;
     }
     .forM {
