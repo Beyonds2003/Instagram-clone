@@ -435,6 +435,7 @@ a {
     background: white;
     width: 100%;
     overflow: auto;
+    height: 320px
 }
 .heads {
     display: flex;
